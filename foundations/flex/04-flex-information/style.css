@@ -3,13 +3,29 @@ body {
 }
 
 img {
-  width: 100px;
-  height: 100px;
+  max-width: 200px;
 }
 
-.title {
+div {
+  display: flex;
+}
+
+div.title {
   font-size: 36px;
   font-weight: 900;
+  align-items: center;
+  justify-content: center;
+  padding: 32px 0;
+}
+
+div.plants {
+  flex-wrap: wrap;
+  gap: 16px;
+  padding: 16px;
+}
+
+.text {
+  text-align: center;
 }
 
 /* do not edit this footer */
